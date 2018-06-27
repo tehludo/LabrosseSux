@@ -787,3 +787,863 @@ LogInit: Object subsystem initialized
 [2018.06.27-16.08.54:926][203]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2018.06.27-16.08.54:926][203]SourceControl:  rewrite Content/Char/Knight/ABP_KnightCharacter.uasset (93%)
 [2018.06.27-16.08.54:952][203]SourceControl: Commited [master fb2b0c6] AIMING BOIII.
+[2018.06.27-16.10.37:101][917]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (HouseE2)
+[2018.06.27-16.10.37:676][917]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.10.40:333][ 83]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.10.40:356][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.10.40:375][ 83]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:10:40 AM)
+[2018.06.27-16.10.40:375][ 83]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_TestMap
+[2018.06.27-16.10.40:465][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090375s)
+[2018.06.27-16.10.40:466][ 83]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.10.40:467][ 83]LogPlayLevel: PIE: World Init took: (0.001350s)
+[2018.06.27-16.10.40:467][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_1_TestMap.TestMap (0.092184s)
+[2018.06.27-16.10.40:538][ 83]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.10.40:578][ 83]LogInit: FAudioDevice initialized.
+[2018.06.27-16.10.40:692][ 83]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.10.40:765][ 83]LogWorld: Bringing World /Game/UEDPIE_1_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.10.40
+[2018.06.27-16.10.40:767][ 83]LogWorld: Bringing up level for play took: 0.074482
+[2018.06.27-16.10.40:770][ 83]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.10.40:770][ 83]LogTemp: Display: ParseSettings for IpNetDriver_4
+[2018.06.27-16.10.40:770][ 83]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.10.40:771][ 83]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.06.27-16.10.40:771][ 83]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.10.40:771][ 83]LogNet: GameNetDriver IpNetDriver_4 IpNetDriver listening on port 17777
+[2018.06.27-16.10.40:779][ 83]PIE: Play in editor start time for /Game/UEDPIE_1_TestMap -0.523
+[2018.06.27-16.10.40:800][ 83]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:10:40 AM)
+[2018.06.27-16.10.40:835][ 83]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.10.40:925][ 83]LogNet: Browse: 127.0.0.1:17777//Game/TestMap
+[2018.06.27-16.10.40:926][ 83]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.10.40:926][ 83]LogTemp: Display: ParseSettings for IpNetDriver_5
+[2018.06.27-16.10.40:926][ 83]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.06.27-16.10.40:926][ 83]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.06.27-16.10.40:927][ 83]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.10.40:927][ 83]LogNet: Game client on port 17777, rate 10000
+[2018.06.27-16.10.40:935][ 83]PIE: Play in editor start time for /Game/TestMap -0.367
+[2018.06.27-16.10.40:970][ 83]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57652
+[2018.06.27-16.10.40:970][ 83]LogHandshake: SendConnectChallenge. Timestamp: 0.014329, Cookie: 039114088151253237221056108043037033196093221145168244060109
+[2018.06.27-16.10.40:978][ 83]LogHandshake: SendChallengeResponse. Timestamp: 0.014329, Cookie: 039114088151253237221056108043037033196093221145168244060109
+[2018.06.27-16.10.41:187][ 84]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:57652
+[2018.06.27-16.10.41:187][ 84]LogHandshake: SendChallengeAck. InCookie: 039114088151253237221056108043037033196093221145168244060109
+[2018.06.27-16.10.41:187][ 84]LogNet: Server accepting post-challenge connection from: 127.0.0.1:57652
+[2018.06.27-16.10.41:187][ 84]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.10.41:187][ 84]LogNet: NotifyAcceptedConnection: Name: TestMap, TimeStamp: 06/27/18 12:10:41, [UNetConnection] RemoteAddr: 127.0.0.1:57652, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.10.41:187][ 84]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:57652, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.10.41:189][ 84]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: PendingNetDriver IpNetDriver_5, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.10.41:226][ 85]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_TestMap.TestMap: Accepted
+[2018.06.27-16.10.41:226][ 85]LogNet: Remote platform little endian=1
+[2018.06.27-16.10.41:226][ 85]LogNet: This platform little endian=1
+[2018.06.27-16.10.41:255][ 86]LogNet: Login request: /Game/TestMap userId: Invalid
+[2018.06.27-16.10.41:263][ 86]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_TestMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.06.27-16.10.41:263][ 86]LogLoad: LoadMap: 127.0.0.1:17777//Game/UEDPIE_1_TestMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.06.27-16.10.41:402][ 86]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.10.41:403][ 86]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.10.41:472][ 86]LogWorld: Bringing World /Game/UEDPIE_2_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.10.41
+[2018.06.27-16.10.41:474][ 86]LogWorld: Bringing up level for play took: 0.069695
+[2018.06.27-16.10.41:474][ 86]LogLoad: Took 0.210812 seconds to LoadMap(/Game/UEDPIE_1_TestMap)
+[2018.06.27-16.10.41:537][ 87]LogNet: Client netspeed is 10000
+[2018.06.27-16.10.41:537][ 87]LogNet: Join request: /Game/TestMap?SplitscreenCount=1
+[2018.06.27-16.10.41:542][ 87]LogNet: Join succeeded: 264
+[2018.06.27-16.11.33:270][ 42]LogSlate: Window 'Unreal Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.11.33:342][ 42]LogSlate: Window 'Unreal Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.11.33:430][ 42]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57652, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.11.33:430][ 42]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:57652, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 3, Time: 2018.06.27-16.11.33
+[2018.06.27-16.11.33:430][ 42]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:57652, Name: IpConnection_5, Driver: GameNetDriver IpNetDriver_4, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.11.33:430][ 42]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.11.33:431][ 42]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 10, Time: 2018.06.27-16.11.33
+[2018.06.27-16.11.33:431][ 42]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_4, Driver: GameNetDriver IpNetDriver_5, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.11.33:453][ 42]LogExit: GameNetDriver None shut down
+[2018.06.27-16.11.33:454][ 42]LogExit: GameNetDriver None shut down
+[2018.06.27-16.11.47:195][587]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.15.31:570][536]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.15.31:679][536]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414a9ed080, Size=608
+[2018.06.27-16.15.31:679][536]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241794a8e00, Size=608, Default__BP_KnightCharacter_C Function /Engine/Transient.REINST_BP_KnightCharacter_C_66:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.15.31:704][536]LogUObjectGlobals: Created PersistentFrame Addr=0x000002416f494680, Size=608, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.15.34:520][574]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.15.34:556][574]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.15.34:746][574]LogSavePackage: Save=160.23ms
+[2018.06.27-16.15.34:747][574]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter4D764EFD4DF1BFB26DBFEA8B8A21CBC8.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.15.34:755][574]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.15.36:660][637]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.15.36:744][640]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.15.36:748][640]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.15.39:866][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.15.40:045][775]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_20:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) Already registered. Aborting.
+[2018.06.27-16.15.40:157][775]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_20:PersistentLevel.Actor_5.DebugSkelMeshComponent_9) - call TermArticulated first.
+[2018.06.27-16.15.40:921][775]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.16.05:191][634]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.16.05:221][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/jogsprint" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/jogsprint.uasset" SILENT=true
+[2018.06.27-16.16.05:394][634]LogSavePackage: Save=149.57ms
+[2018.06.27-16.16.05:394][634]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/jogsprint4684D4CE418EB9621ABA13A457C05F3A.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/jogsprint.uasset'
+[2018.06.27-16.16.05:404][634]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/jogsprint.uasset
+[2018.06.27-16.16.06:368][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.16.06:452][667]LogSlate: Window 'jogsprint' being destroyed
+[2018.06.27-16.16.06:458][667]LogSlate: Window 'jogsprint' being destroyed
+[2018.06.27-16.16.07:403][712]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.16.07:492][720]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.16.07:521][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.16.07:540][720]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:16:07 AM)
+[2018.06.27-16.16.07:540][720]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_TestMap
+[2018.06.27-16.16.07:625][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084993s)
+[2018.06.27-16.16.07:626][720]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.16.07:626][720]LogPlayLevel: PIE: World Init took: (0.001067s)
+[2018.06.27-16.16.07:627][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_1_TestMap.TestMap (0.086618s)
+[2018.06.27-16.16.07:682][720]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.16.07:728][720]LogInit: FAudioDevice initialized.
+[2018.06.27-16.16.07:840][720]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.16.07:919][720]LogWorld: Bringing World /Game/UEDPIE_1_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.16.07
+[2018.06.27-16.16.07:922][720]LogWorld: Bringing up level for play took: 0.080122
+[2018.06.27-16.16.07:924][720]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.16.07:924][720]LogTemp: Display: ParseSettings for IpNetDriver_6
+[2018.06.27-16.16.07:924][720]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.16.07:925][720]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.06.27-16.16.07:925][720]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.16.07:925][720]LogNet: GameNetDriver IpNetDriver_6 IpNetDriver listening on port 17777
+[2018.06.27-16.16.07:936][720]PIE: Play in editor start time for /Game/UEDPIE_1_TestMap 0.633
+[2018.06.27-16.16.07:955][720]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:16:07 AM)
+[2018.06.27-16.16.07:983][720]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.16.08:072][720]LogNet: Browse: 127.0.0.1:17777//Game/TestMap
+[2018.06.27-16.16.08:073][720]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.16.08:073][720]LogTemp: Display: ParseSettings for IpNetDriver_7
+[2018.06.27-16.16.08:073][720]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.06.27-16.16.08:073][720]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.06.27-16.16.08:074][720]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.16.08:074][720]LogNet: Game client on port 17777, rate 10000
+[2018.06.27-16.16.08:082][720]PIE: Play in editor start time for /Game/TestMap 0.779
+[2018.06.27-16.16.08:117][720]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65106
+[2018.06.27-16.16.08:117][720]LogHandshake: SendConnectChallenge. Timestamp: 0.017740, Cookie: 191013085122245181100155250226168230065121094238242199066043
+[2018.06.27-16.16.08:121][720]LogHandshake: SendChallengeResponse. Timestamp: 0.017740, Cookie: 191013085122245181100155250226168230065121094238242199066043
+[2018.06.27-16.16.08:317][721]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:65106
+[2018.06.27-16.16.08:317][721]LogHandshake: SendChallengeAck. InCookie: 191013085122245181100155250226168230065121094238242199066043
+[2018.06.27-16.16.08:317][721]LogNet: Server accepting post-challenge connection from: 127.0.0.1:65106
+[2018.06.27-16.16.08:318][721]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.16.08:318][721]LogNet: NotifyAcceptedConnection: Name: TestMap, TimeStamp: 06/27/18 12:16:08, [UNetConnection] RemoteAddr: 127.0.0.1:65106, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.16.08:318][721]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:65106, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.16.08:319][721]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: PendingNetDriver IpNetDriver_7, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.16.08:353][722]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_TestMap.TestMap: Accepted
+[2018.06.27-16.16.08:353][722]LogNet: Remote platform little endian=1
+[2018.06.27-16.16.08:353][722]LogNet: This platform little endian=1
+[2018.06.27-16.16.08:399][723]LogNet: Login request: /Game/TestMap userId: Invalid
+[2018.06.27-16.16.08:408][723]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_TestMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.06.27-16.16.08:408][723]LogLoad: LoadMap: 127.0.0.1:17777//Game/UEDPIE_1_TestMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.06.27-16.16.08:542][723]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.16.08:542][723]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.16.08:609][723]LogWorld: Bringing World /Game/UEDPIE_2_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.16.08
+[2018.06.27-16.16.08:611][723]LogWorld: Bringing up level for play took: 0.066839
+[2018.06.27-16.16.08:611][723]LogLoad: Took 0.202741 seconds to LoadMap(/Game/UEDPIE_1_TestMap)
+[2018.06.27-16.16.08:652][724]LogNet: Client netspeed is 10000
+[2018.06.27-16.16.08:652][724]LogNet: Join request: /Game/TestMap?SplitscreenCount=1
+[2018.06.27-16.16.08:655][724]LogNet: Join succeeded: 266
+[2018.06.27-16.17.07:393][851]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.17.54:034][782]LogSlate: Window 'Unreal Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.17.54:110][782]LogSlate: Window 'Unreal Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.17.54:238][782]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65106, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.17.54:238][782]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:65106, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.06.27-16.17.54
+[2018.06.27-16.17.54:238][782]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:65106, Name: IpConnection_7, Driver: GameNetDriver IpNetDriver_6, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.17.54:238][782]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.17.54:238][782]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.06.27-16.17.54
+[2018.06.27-16.17.54:239][782]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_6, Driver: GameNetDriver IpNetDriver_7, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.17.54:248][782]LogExit: GameNetDriver None shut down
+[2018.06.27-16.17.54:248][782]LogExit: GameNetDriver None shut down
+[2018.06.27-16.17.56:027][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.21.03:396][920]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.21.03:400][920]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.21.05:294][  4]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.21.05:512][ 12]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_24:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) Already registered. Aborting.
+[2018.06.27-16.21.06:076][ 12]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_24:PersistentLevel.Actor_6.DebugSkelMeshComponent_11) - call TermArticulated first.
+[2018.06.27-16.21.29:366][757]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cdc1e628, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.21.36:276][970]BlueprintLog: New page: Compile ABP_KnightCharacter
+[2018.06.27-16.21.36:297][970]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cdc1e628, Size=4
+[2018.06.27-16.21.36:297][970]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cdc1e628, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_34:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.21.36:327][970]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418f0b4a00, Size=128
+[2018.06.27-16.21.36:328][970]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241dba00280, Size=128, Default__ABP_KnightCharacter_C Function /Engine/Transient.REINST_ABP_KnightCharacter_C_35:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.21.36:347][970]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024196db7d80, Size=128, Default__ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.21.36:545][970]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cdc1e628, Size=4
+[2018.06.27-16.21.37:943][997]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.21.37:972][997]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/ABP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.21.38:119][997]LogSavePackage: Save=107.85ms
+[2018.06.27-16.21.38:120][997]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/ABP_KnightCharacter9378B7AA4452EEFE0994CF921EEE953C.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset'
+[2018.06.27-16.21.38:130][997]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset
+[2018.06.27-16.21.38:925][ 19]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.21.38:987][ 21]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.21.38:992][ 21]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.21.39:893][ 55]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.21.39:962][ 61]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.21.39:986][ 61]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.21.40:005][ 61]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:21:40 AM)
+[2018.06.27-16.21.40:005][ 61]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_TestMap
+[2018.06.27-16.21.40:093][ 61]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087573s)
+[2018.06.27-16.21.40:093][ 61]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.21.40:094][ 61]LogPlayLevel: PIE: World Init took: (0.001008s)
+[2018.06.27-16.21.40:094][ 61]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_1_TestMap.TestMap (0.088984s)
+[2018.06.27-16.21.40:125][ 61]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241dba00280, Size=128
+[2018.06.27-16.21.40:153][ 61]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.21.40:205][ 61]LogInit: FAudioDevice initialized.
+[2018.06.27-16.21.40:317][ 61]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.21.40:393][ 61]LogWorld: Bringing World /Game/UEDPIE_1_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.21.40
+[2018.06.27-16.21.40:395][ 61]LogWorld: Bringing up level for play took: 0.076486
+[2018.06.27-16.21.40:397][ 61]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.21.40:397][ 61]LogTemp: Display: ParseSettings for IpNetDriver_8
+[2018.06.27-16.21.40:397][ 61]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.21.40:397][ 61]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.06.27-16.21.40:398][ 61]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.21.40:398][ 61]LogNet: GameNetDriver IpNetDriver_8 IpNetDriver listening on port 17777
+[2018.06.27-16.21.40:406][ 61]PIE: Play in editor start time for /Game/UEDPIE_1_TestMap 1.104
+[2018.06.27-16.21.40:427][ 61]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:21:40 AM)
+[2018.06.27-16.21.40:456][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.21.40:546][ 61]LogNet: Browse: 127.0.0.1:17777//Game/TestMap
+[2018.06.27-16.21.40:546][ 61]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.21.40:546][ 61]LogTemp: Display: ParseSettings for IpNetDriver_9
+[2018.06.27-16.21.40:546][ 61]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.06.27-16.21.40:546][ 61]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.06.27-16.21.40:547][ 61]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.21.40:547][ 61]LogNet: Game client on port 17777, rate 10000
+[2018.06.27-16.21.40:556][ 61]PIE: Play in editor start time for /Game/TestMap 1.253
+[2018.06.27-16.21.40:595][ 61]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51427
+[2018.06.27-16.21.40:595][ 61]LogHandshake: SendConnectChallenge. Timestamp: 0.009230, Cookie: 055107137191228073118143204032127200207060117197011206056077
+[2018.06.27-16.21.40:598][ 61]LogHandshake: SendChallengeResponse. Timestamp: 0.009230, Cookie: 055107137191228073118143204032127200207060117197011206056077
+[2018.06.27-16.21.40:789][ 62]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51427
+[2018.06.27-16.21.40:789][ 62]LogHandshake: SendChallengeAck. InCookie: 055107137191228073118143204032127200207060117197011206056077
+[2018.06.27-16.21.40:789][ 62]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51427
+[2018.06.27-16.21.40:789][ 62]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.21.40:789][ 62]LogNet: NotifyAcceptedConnection: Name: TestMap, TimeStamp: 06/27/18 12:21:40, [UNetConnection] RemoteAddr: 127.0.0.1:51427, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.21.40:789][ 62]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51427, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.21.40:791][ 62]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: PendingNetDriver IpNetDriver_9, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.21.40:830][ 63]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_TestMap.TestMap: Accepted
+[2018.06.27-16.21.40:830][ 63]LogNet: Remote platform little endian=1
+[2018.06.27-16.21.40:830][ 63]LogNet: This platform little endian=1
+[2018.06.27-16.21.40:856][ 64]LogNet: Login request: /Game/TestMap userId: Invalid
+[2018.06.27-16.21.40:858][ 64]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_TestMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.06.27-16.21.40:861][ 64]LogLoad: LoadMap: 127.0.0.1:17777//Game/UEDPIE_1_TestMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.06.27-16.21.40:993][ 64]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.21.40:994][ 64]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.21.41:061][ 64]LogWorld: Bringing World /Game/UEDPIE_2_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.21.41
+[2018.06.27-16.21.41:063][ 64]LogWorld: Bringing up level for play took: 0.067356
+[2018.06.27-16.21.41:063][ 64]LogLoad: Took 0.202294 seconds to LoadMap(/Game/UEDPIE_1_TestMap)
+[2018.06.27-16.21.41:101][ 65]LogNet: Client netspeed is 10000
+[2018.06.27-16.21.41:101][ 65]LogNet: Join request: /Game/TestMap?SplitscreenCount=1
+[2018.06.27-16.21.41:106][ 65]LogNet: Join succeeded: 268
+[2018.06.27-16.21.50:625][352]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.22.00:557][684]LogSlate: Window 'Unreal Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.22.00:651][684]LogSlate: Window 'Unreal Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.22.00:770][684]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51427, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.22.00:770][684]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51427, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID, Channels: 2, Time: 2018.06.27-16.22.00
+[2018.06.27-16.22.00:770][684]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51427, Name: IpConnection_9, Driver: GameNetDriver IpNetDriver_8, IsServer: YES, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.22.00:770][684]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.22.00:770][684]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID, Channels: 4, Time: 2018.06.27-16.22.00
+[2018.06.27-16.22.00:770][684]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_8, Driver: GameNetDriver IpNetDriver_9, IsServer: NO, PC: None, Owner: None, UniqueId: INVALID
+[2018.06.27-16.22.00:784][684]LogExit: GameNetDriver None shut down
+[2018.06.27-16.22.00:785][684]LogExit: GameNetDriver None shut down
+[2018.06.27-16.22.16:797][273]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.22.16:983][280]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_27:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) Already registered. Aborting.
+[2018.06.27-16.22.17:570][280]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_27:PersistentLevel.Actor_7.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2018.06.27-16.22.25:256][502]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.22.25:266][502]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.22.26:965][551]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.23.14:967][587]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent   conflicted with  Server start AIMING  and was replaced as a Custom Event!
+[2018.06.27-16.23.14:968][587]LogBlueprint: Warning: [Compiler ] Pasted node  CustomEvent_1   conflicted with  server STOP AIMING  and was replaced as a Custom Event!
+[2018.06.27-16.23.15:029][587]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418fbbe938, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.23.32:322][244]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418fbbe938, Size=4
+[2018.06.27-16.23.32:322][244]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ad0607f8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_75:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.23.32:336][244]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ad0600f8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.23.39:410][514]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ad0600f8, Size=4
+[2018.06.27-16.23.39:410][514]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418fbbdd38, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_77:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.23.39:423][514]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418fbbfac8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.24.25:874][641]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418fbbfac8, Size=4
+[2018.06.27-16.24.25:874][641]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241b199b610, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_79:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.24.25:886][641]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241b199ba78, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.25.09:095][580]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241b199ba78, Size=4
+[2018.06.27-16.25.09:095][580]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8133818, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_81:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.25.09:106][580]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8132448, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.25.22:685][225]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8132448, Size=4
+[2018.06.27-16.25.22:685][225]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418dc37240, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_83:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.25.22:697][225]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418dc37eb8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.26.50:631][265]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418dc37eb8, Size=4
+[2018.06.27-16.26.50:631][265]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce1464e8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_85:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.26.50:646][265]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce146ad8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.26.54:864][456]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce146ad8, Size=4
+[2018.06.27-16.26.54:864][456]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418cc6c518, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_87:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.26.54:875][456]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418dc34cc0, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.28.46:710][566]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418dc34cc0, Size=4
+[2018.06.27-16.28.46:710][566]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce1471d0, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_89:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.28.46:725][566]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce1469f0, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.05:757][544]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce1469f0, Size=4
+[2018.06.27-16.29.05:757][544]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce1469f0, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_91:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.05:768][544]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce145458, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.09:278][715]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce145458, Size=4
+[2018.06.27-16.29.09:278][715]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce145458, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_93:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.09:289][715]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241ce147ca8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.46:985][428]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.29.47:039][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce147ca8, Size=4
+[2018.06.27-16.29.47:039][428]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8edad00, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_95:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.47:100][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002416f494680, Size=608
+[2018.06.27-16.29.47:100][428]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241751c0e00, Size=608, BP_KnightCharacter_C_157 Function /Engine/Transient.REINST_BP_KnightCharacter_C_98:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.47:127][428]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a9da5d00, Size=608, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.29.47:664][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8edad00, Size=4
+[2018.06.27-16.29.47:664][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce145458, Size=4
+[2018.06.27-16.29.47:664][428]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8133818, Size=4
+[2018.06.27-16.29.48:959][458]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.29.48:992][458]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.29.49:193][458]LogSavePackage: Save=166.92ms
+[2018.06.27-16.29.49:193][458]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter5C5127F64D7DDE71127ED1B44863D5D8.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.29.49:202][458]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.29.50:113][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.29.50:186][493]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.29.50:194][493]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.29.52:109][607]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.29.52:171][612]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.29.52:195][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.29.52:214][612]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:29:52 AM)
+[2018.06.27-16.29.52:214][612]LogPlayLevel: Creating play world package: /Game/UEDPIE_1_TestMap
+[2018.06.27-16.29.52:302][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087126s)
+[2018.06.27-16.29.52:303][612]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.29.52:303][612]LogPlayLevel: PIE: World Init took: (0.001133s)
+[2018.06.27-16.29.52:303][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_1_TestMap.TestMap (0.088796s)
+[2018.06.27-16.29.52:355][612]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.29.52:402][612]LogInit: FAudioDevice initialized.
+[2018.06.27-16.29.52:518][612]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.29.52:598][612]LogWorld: Bringing World /Game/UEDPIE_1_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.29.52
+[2018.06.27-16.29.52:603][612]LogWorld: Bringing up level for play took: 0.083253
+[2018.06.27-16.29.52:606][612]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.29.52:606][612]LogTemp: Display: ParseSettings for IpNetDriver_10
+[2018.06.27-16.29.52:606][612]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.29.52:606][612]LogInit: WinSock: Socket queue 131072 / 131072
+[2018.06.27-16.29.52:607][612]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.29.52:607][612]LogNet: GameNetDriver IpNetDriver_10 IpNetDriver listening on port 17777
+[2018.06.27-16.29.52:615][612]PIE: Play in editor start time for /Game/UEDPIE_1_TestMap 1.313
+[2018.06.27-16.29.52:637][612]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:29:52 AM)
+[2018.06.27-16.29.52:668][612]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.29.52:761][612]LogNet: Browse: 127.0.0.1:17777//Game/TestMap
+[2018.06.27-16.29.52:761][612]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.29.52:761][612]LogTemp: Display: ParseSettings for IpNetDriver_11
+[2018.06.27-16.29.52:761][612]LogTemp: Display: ParseSettings for PendingNetDriver
+[2018.06.27-16.29.52:761][612]LogInit: WinSock: Socket queue 32768 / 32768
+[2018.06.27-16.29.52:762][612]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.29.52:762][612]LogNet: Game client on port 17777, rate 10000
+[2018.06.27-16.29.52:772][612]PIE: Play in editor start time for /Game/TestMap 1.469
+[2018.06.27-16.29.52:811][612]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51344
+[2018.06.27-16.29.52:812][612]LogHandshake: SendConnectChallenge. Timestamp: 0.014256, Cookie: 251203022055058031186074050002216173105059167037153252061104
+[2018.06.27-16.29.52:815][612]LogHandshake: SendChallengeResponse. Timestamp: 0.014256, Cookie: 251203022055058031186074050002216173105059167037153252061104
+[2018.06.27-16.29.53:012][613]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:51344
+[2018.06.27-16.29.53:012][613]LogHandshake: SendChallengeAck. InCookie: 251203022055058031186074050002216173105059167037153252061104
+[2018.06.27-16.29.53:012][613]LogNet: Server accepting post-challenge connection from: 127.0.0.1:51344
+[2018.06.27-16.29.53:012][613]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2018.06.27-16.29.53:012][613]LogNet: NotifyAcceptedConnection: Name: TestMap, TimeStamp: 06/27/18 12:29:53, [UNetConnection] RemoteAddr: 127.0.0.1:51344, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.29.53:012][613]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:51344, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.29.53:014][613]LogNet: UPendingNetGame::SendInitialJoin: Sending hello. [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: PendingNetDriver IpNetDriver_11, IsServer: NO, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2018.06.27-16.29.53:049][614]LogNet: NotifyAcceptingChannel Control 0 server World /Game/UEDPIE_1_TestMap.TestMap: Accepted
+[2018.06.27-16.29.53:050][614]LogNet: Remote platform little endian=1
+[2018.06.27-16.29.53:050][614]LogNet: This platform little endian=1
+[2018.06.27-16.29.53:079][615]LogNet: Login request: /Game/TestMap userId: Invalid
+[2018.06.27-16.29.53:081][615]LogNet: Welcomed by server (Level: /Game/UEDPIE_1_TestMap, Game: /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C)
+[2018.06.27-16.29.53:085][615]LogLoad: LoadMap: 127.0.0.1:17777//Game/UEDPIE_1_TestMap?game=/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C
+[2018.06.27-16.29.53:213][615]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.29.53:213][615]LogTemp: Display: ParseSettings for GameNetDriver
+[2018.06.27-16.29.53:287][615]LogWorld: Bringing World /Game/UEDPIE_2_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.29.53
+[2018.06.27-16.29.53:289][615]LogWorld: Bringing up level for play took: 0.072646
+[2018.06.27-16.29.53:289][615]LogLoad: Took 0.204434 seconds to LoadMap(/Game/UEDPIE_1_TestMap)
+[2018.06.27-16.29.53:338][616]LogNet: Client netspeed is 10000
+[2018.06.27-16.29.53:338][616]LogNet: Join request: /Game/TestMap?SplitscreenCount=1
+[2018.06.27-16.29.53:341][616]LogNet: Join succeeded: 270
+[2018.06.27-16.29.58:763][704]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.30.30:865][795]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.30.44:233][287]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.31.01:405][  7]LogSlate: Window 'Unreal Game Preview Client 1 (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.31.01:476][  7]LogSlate: Window 'Unreal Game Preview Server (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.31.01:600][  7]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51344, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.31.01:601][  7]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:51344, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.06.27-16.31.01
+[2018.06.27-16.31.01:601][  7]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:51344, Name: IpConnection_11, Driver: GameNetDriver IpNetDriver_10, IsServer: YES, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.31.01:601][  7]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.31.01:601][  7]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID, Channels: 12, Time: 2018.06.27-16.31.01
+[2018.06.27-16.31.01:601][  7]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:17777, Name: IpConnection_10, Driver: GameNetDriver IpNetDriver_11, IsServer: NO, PC: PlayerController_1, Owner: PlayerController_1, UniqueId: INVALID
+[2018.06.27-16.31.01:613][  7]LogExit: GameNetDriver None shut down
+[2018.06.27-16.31.01:613][  7]LogExit: GameNetDriver None shut down
+[2018.06.27-16.31.04:869][187]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.31.18:004][874]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a98399f8, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.20:899][977]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.31.20:950][977]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a98399f8, Size=4
+[2018.06.27-16.31.20:951][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8132640, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_102:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.21:065][977]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024196db7d80, Size=128
+[2018.06.27-16.31.21:065][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241b3211980, Size=128, Default__ABP_KnightCharacter_C Function /Engine/Transient.REINST_ABP_KnightCharacter_C_38:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.31.21:066][977]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a9da5d00, Size=608
+[2018.06.27-16.31.21:066][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241e80dfd80, Size=608, BP_KnightCharacter_C_184 Function /Engine/Transient.REINST_BP_KnightCharacter_C_105:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.21:535][977]LogBlueprint: Error: [Compiler BP_KnightCharacter] Could not find a function named "Server start running" in 'BP_KnightCharacter_C'.
+Make sure 'BP_KnightCharacter_C' has been compiled for  Server Start Running
+[2018.06.27-16.31.21:536][977]LogBlueprint: Error: [Compiler BP_KnightCharacter] Could not find a function named "Server start running" in 'BP_KnightCharacter_C'.
+Make sure 'BP_KnightCharacter_C' has been compiled for  Server Start Running
+[2018.06.27-16.31.21:540][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241b50ad500, Size=128, Default__ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.31.21:543][977]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cd789300, Size=608, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.22:066][977]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8132640, Size=4
+[2018.06.27-16.31.22:108][977]LogBlueprint: Warning: [Compiler BP_KnightCharacter] [4795.71] Compile of BP_KnightCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 1,209 ms] (/Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter)
+[2018.06.27-16.31.33:993][361]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8edb838, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.35:242][394]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8edb838, Size=4
+[2018.06.27-16.31.35:243][394]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8133280, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_110:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.35:254][394]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8133208, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.SKEL_BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.36:317][420]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.31.36:366][420]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8133208, Size=4
+[2018.06.27-16.31.36:366][420]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8ed9620, Size=4, Default__SKEL_BP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_BP_KnightCharacter_C_112:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.36:421][420]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cd789300, Size=608
+[2018.06.27-16.31.36:421][420]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241e85cf600, Size=608, BP_KnightCharacter_C_194 Function /Engine/Transient.REINST_BP_KnightCharacter_C_115:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.36:446][420]LogUObjectGlobals: Created PersistentFrame Addr=0x000002419ad9e480, Size=608, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.31.36:973][420]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241b3211980, Size=128
+[2018.06.27-16.31.36:973][420]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8ed9620, Size=4
+[2018.06.27-16.31.38:317][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.31.38:348][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.31.38:534][441]LogSavePackage: Save=157.53ms
+[2018.06.27-16.31.38:534][441]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacterC468EB0249FBFD3795D7F9BFE5739D86.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.31.38:543][441]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.31.39:248][462]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.31.39:327][465]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.31.39:331][465]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.31.40:957][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.31.41:029][568]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.31.41:058][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.31.41:058][568]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:31:41 AM)
+[2018.06.27-16.31.41:058][568]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.31.41:144][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085912s)
+[2018.06.27-16.31.41:145][568]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.31.41:146][568]LogPlayLevel: PIE: World Init took: (0.001419s)
+[2018.06.27-16.31.41:146][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.088002s)
+[2018.06.27-16.31.41:180][568]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241e85cf600, Size=608
+[2018.06.27-16.31.41:197][568]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.31.41:247][568]LogInit: FAudioDevice initialized.
+[2018.06.27-16.31.41:362][568]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.31.41:437][568]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.31.41
+[2018.06.27-16.31.41:439][568]LogWorld: Bringing up level for play took: 0.075624
+[2018.06.27-16.31.41:456][568]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.153
+[2018.06.27-16.31.53:622][213]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.42.22:509][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.42.57:682][283]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.42.57:686][283]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.42.59:042][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.42.59:206][334]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_33:PersistentLevel.Actor_8.DebugSkelMeshComponent_15) Already registered. Aborting.
+[2018.06.27-16.42.59:778][334]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_33:PersistentLevel.Actor_8.DebugSkelMeshComponent_15) - call TermArticulated first.
+[2018.06.27-16.43.25:265][273]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_35:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) Already registered. Aborting.
+[2018.06.27-16.43.25:335][273]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_35:PersistentLevel.Actor_9.DebugSkelMeshComponent_17) - call TermArticulated first.
+[2018.06.27-16.43.26:686][273]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.43.28:293][318]LogSlate: Window 'ThrowIdle' being destroyed
+[2018.06.27-16.43.28:296][318]LogSlate: Window 'ThrowIdle' being destroyed
+[2018.06.27-16.43.30:209][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.43.30:388][383]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_40:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) Already registered. Aborting.
+[2018.06.27-16.43.30:949][383]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_40:PersistentLevel.Actor_10.DebugSkelMeshComponent_20) - call TermArticulated first.
+[2018.06.27-16.43.55:468][321]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.44.00:943][509]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418b361570, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.00:959][509]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418b361570, Size=4
+[2018.06.27-16.44.00:959][509]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418b361570, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_41:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.00:981][509]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418b360108, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.05:723][689]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418b360108, Size=4
+[2018.06.27-16.44.05:723][689]LogUObjectGlobals: Created PersistentFrame Addr=0x000002417c56e0c8, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_42:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.05:741][689]LogUObjectGlobals: Created PersistentFrame Addr=0x000002417c56e7d0, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.21:343][294]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002417c56e7d0, Size=4
+[2018.06.27-16.44.21:343][294]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cc65d7d0, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_43:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.21:373][294]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cc65edb8, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.21:381][294]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cc65edb8, Size=4
+[2018.06.27-16.44.21:381][294]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cc65edb8, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_44:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.21:399][294]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241cc65e598, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.30:890][657]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cc65e598, Size=4
+[2018.06.27-16.44.30:890][657]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241f563ac60, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_45:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.30:907][657]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241f563b9b0, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.33:841][762]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241f563b9b0, Size=4
+[2018.06.27-16.44.33:841][762]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418dc36af8, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_46:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.33:859][762]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418dc37898, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.55:896][602]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418dc37898, Size=4
+[2018.06.27-16.44.55:896][602]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418de1d630, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_47:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.55:914][602]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418de1c400, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.55:932][602]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418de1c400, Size=4
+[2018.06.27-16.44.55:932][602]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418de1c400, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_48:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.44.55:957][602]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418de1e418, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.45.17:563][418]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_42:PersistentLevel.Actor_11.DebugSkelMeshComponent_22) Already registered. Aborting.
+[2018.06.27-16.45.17:637][418]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_42:PersistentLevel.Actor_11.DebugSkelMeshComponent_22) - call TermArticulated first.
+[2018.06.27-16.45.18:451][418]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.45.45:725][334]LogSlate: Window 'Throw*' being destroyed
+[2018.06.27-16.45.45:729][334]LogSlate: Window 'Throw*' being destroyed
+[2018.06.27-16.45.47:087][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.45.47:274][376]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_46:PersistentLevel.Actor_12.DebugSkelMeshComponent_25) Already registered. Aborting.
+[2018.06.27-16.45.47:829][376]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_46:PersistentLevel.Actor_12.DebugSkelMeshComponent_25) - call TermArticulated first.
+[2018.06.27-16.45.48:518][376]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.45.54:113][585]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418de1e418, Size=4
+[2018.06.27-16.45.54:113][585]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8131a18, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_49:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.45.54:135][585]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241a8130cb0, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.SKEL_ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.46.26:781][801]LogSlate: Window 'ABP_KnightCharacter*' being destroyed
+[2018.06.27-16.46.26:788][801]LogSlate: Window 'ABP_KnightCharacter*' being destroyed
+[2018.06.27-16.46.28:630][872]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.50.43:748][987]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.50.43:799][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8130cb0, Size=4
+[2018.06.27-16.50.43:799][987]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418ca355e8, Size=4, Default__SKEL_ABP_KnightCharacter_C Function /Engine/Transient.REINST_SKEL_ABP_KnightCharacter_C_50:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.50.43:855][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002419ad9e480, Size=608
+[2018.06.27-16.50.43:855][987]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024216599d00, Size=608, BP_KnightCharacter_C_214 Function /Engine/Transient.REINST_BP_KnightCharacter_C_130:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.50.43:872][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] This blueprint (self) is not a ABP_KnightCharacter_C, therefore ' Target ' must have a connection.
+[2018.06.27-16.50.43:872][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] This blueprint (self) is not a ABP_KnightCharacter_C, therefore ' Target ' must have a connection.
+[2018.06.27-16.50.43:875][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] Variable node  Set can thrown  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.06.27-16.50.43:885][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] The property associated with  Can Thrown  could not be found
+[2018.06.27-16.50.43:886][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] Variable node  Set can thrown  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.06.27-16.50.43:886][987]LogBlueprint: Error: [Compiler BP_KnightCharacter] The property associated with  Can Thrown  could not be found
+[2018.06.27-16.50.43:888][987]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024237a22200, Size=688, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.50.44:466][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8131a18, Size=4
+[2018.06.27-16.50.44:466][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418de1c400, Size=4
+[2018.06.27-16.50.44:466][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418de1d630, Size=4
+[2018.06.27-16.50.44:466][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241f563ac60, Size=4
+[2018.06.27-16.50.44:466][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cc65edb8, Size=4
+[2018.06.27-16.50.44:467][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241cc65d7d0, Size=4
+[2018.06.27-16.50.44:467][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002417c56e0c8, Size=4
+[2018.06.27-16.50.44:467][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418dc36af8, Size=4
+[2018.06.27-16.50.44:467][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418b361570, Size=4
+[2018.06.27-16.50.44:494][987]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418ca355e8, Size=4
+[2018.06.27-16.50.44:569][987]LogBlueprint: Warning: [Compiler BP_KnightCharacter] [5958.17] Compile of BP_KnightCharacter failed. 6 Fatal Issue(s) 0 Warning(s) [in 820 ms] (/Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter)
+[2018.06.27-16.50.57:234][440]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.50.57:340][440]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024237a22200, Size=688
+[2018.06.27-16.50.57:340][440]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024197066b00, Size=688, BP_KnightCharacter_C_216 Function /Engine/Transient.REINST_BP_KnightCharacter_C_135:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.50.57:360][440]LogBlueprint: Error: [Compiler BP_KnightCharacter] The property associated with  Can Thrown  could not be found
+[2018.06.27-16.50.57:360][440]LogBlueprint: Error: [Compiler BP_KnightCharacter] The property associated with  Can Thrown  could not be found
+[2018.06.27-16.50.57:363][440]LogUObjectGlobals: Created PersistentFrame Addr=0x000002423aed9300, Size=688, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.50.57:950][440]LogBlueprint: Warning: [Compiler BP_KnightCharacter] [5971.55] Compile of BP_KnightCharacter failed. 2 Fatal Issue(s) 0 Warning(s) [in 715 ms] (/Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter)
+[2018.06.27-16.51.31:735][765]LogSlate: Window 'BP_KnightCharacter*' being destroyed
+[2018.06.27-16.51.31:740][765]LogSlate: Window 'BP_KnightCharacter*' being destroyed
+[2018.06.27-16.51.33:751][854]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.51.33:936][861]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_50:PersistentLevel.Actor_13.DebugSkelMeshComponent_27) Already registered. Aborting.
+[2018.06.27-16.51.34:483][861]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_50:PersistentLevel.Actor_13.DebugSkelMeshComponent_27) - call TermArticulated first.
+[2018.06.27-16.51.35:236][861]LogContentBrowser: Verbose: The majority of assets in the view are of type: AnimSequence
+[2018.06.27-16.51.57:924][731]BlueprintLog: New page: Compile ABP_KnightCharacter
+[2018.06.27-16.51.57:979][731]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241b50ad500, Size=128
+[2018.06.27-16.51.57:979][731]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418bf89a00, Size=128, Default__ABP_KnightCharacter_C Function /Engine/Transient.REINST_ABP_KnightCharacter_C_53:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.51.58:000][731]LogUObjectGlobals: Created PersistentFrame Addr=0x000002423b994b00, Size=128, Default__ABP_KnightCharacter_C Function /Game/Char/Knight/ABP_KnightCharacter.ABP_KnightCharacter_C:ExecuteUbergraph_ABP_KnightCharacter
+[2018.06.27-16.51.58:215][731]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024197066b00, Size=688
+[2018.06.27-16.51.59:986][784]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.52.00:019][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/ABP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.52.00:178][784]LogSavePackage: Save=129.41ms
+[2018.06.27-16.52.00:178][784]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/ABP_KnightCharacterDA2FD7A0470249236BD526B3B4CF3529.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset'
+[2018.06.27-16.52.00:188][784]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/ABP_KnightCharacter.uasset
+[2018.06.27-16.52.01:016][814]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.01:084][817]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.52.01:090][817]LogSlate: Window 'ABP_KnightCharacter' being destroyed
+[2018.06.27-16.52.03:242][883]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.06:670][974]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.52.06:779][974]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002423aed9300, Size=688
+[2018.06.27-16.52.06:780][974]LogUObjectGlobals: Created PersistentFrame Addr=0x0000024198924100, Size=688, BP_KnightCharacter_C_219 Function /Engine/Transient.REINST_BP_KnightCharacter_C_144:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.52.06:804][974]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241b553ee00, Size=688, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.52.07:346][974]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418bf89a00, Size=128
+[2018.06.27-16.52.09:502][ 25]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.52.09:536][ 25]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.52.09:727][ 25]LogSavePackage: Save=163.58ms
+[2018.06.27-16.52.09:727][ 25]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacterE59A37F84EA1F5DF5A722A9430FCAC32.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.52.09:736][ 25]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.52.10:740][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.10:796][ 61]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.52.10:810][ 61]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.52.12:182][134]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.12:251][140]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.52.12:273][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.52.12:273][140]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:52:12 AM)
+[2018.06.27-16.52.12:274][140]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.52.12:359][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.085041s)
+[2018.06.27-16.52.12:360][140]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.52.12:360][140]LogPlayLevel: PIE: World Init took: (0.001065s)
+[2018.06.27-16.52.12:361][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.086640s)
+[2018.06.27-16.52.12:390][140]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024198924100, Size=688
+[2018.06.27-16.52.12:415][140]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.52.12:454][140]LogInit: FAudioDevice initialized.
+[2018.06.27-16.52.12:571][140]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.52.12:653][140]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.52.12
+[2018.06.27-16.52.12:655][140]LogWorld: Bringing up level for play took: 0.083848
+[2018.06.27-16.52.12:665][140]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 1.362
+[2018.06.27-16.52.13:512][177]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+	BP_KnightCharacter_C /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_KnightCharacter_C_0
+	Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter:0655
+[2018.06.27-16.52.13:512][177]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7 from function: 'ExecuteUbergraph_BP_KnightCharacter' from node: Branch in graph: EventGraph in object: BP_KnightCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+[2018.06.27-16.52.14:719][243]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+	BP_KnightCharacter_C /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_KnightCharacter_C_0
+	Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter:0655
+[2018.06.27-16.52.14:719][243]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7 from function: 'ExecuteUbergraph_BP_KnightCharacter' from node: Branch in graph: EventGraph in object: BP_KnightCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+[2018.06.27-16.52.14:978][258]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+	BP_KnightCharacter_C /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_KnightCharacter_C_0
+	Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter:0655
+[2018.06.27-16.52.14:978][258]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7 from function: 'ExecuteUbergraph_BP_KnightCharacter' from node: Branch in graph: EventGraph in object: BP_KnightCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+[2018.06.27-16.52.22:916][725]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.52.24:646][793]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.27:789][877]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.52.27:794][877]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.52.28:492][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.52.28:541][908]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.52.28:565][908]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.52.28:565][908]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:52:28 AM)
+[2018.06.27-16.52.28:565][908]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.52.28:672][908]LogPlayLevel: PIE: StaticDuplicateObject took: (0.106670s)
+[2018.06.27-16.52.28:673][908]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.52.28:673][908]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2018.06.27-16.52.28:674][908]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.108548s)
+[2018.06.27-16.52.28:739][908]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.52.28:777][908]LogInit: FAudioDevice initialized.
+[2018.06.27-16.52.28:887][908]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.52.28:966][908]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.52.28
+[2018.06.27-16.52.28:967][908]LogWorld: Bringing up level for play took: 0.078858
+[2018.06.27-16.52.28:976][908]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap -0.326
+[2018.06.27-16.52.29:532][928]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+	BP_KnightCharacter_C /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_KnightCharacter_C_0
+	Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter:0655
+[2018.06.27-16.52.29:532][928]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7 from function: 'ExecuteUbergraph_BP_KnightCharacter' from node: Branch in graph: EventGraph in object: BP_KnightCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+[2018.06.27-16.52.38:056][395]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.52.39:852][464]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.53.09:723][524]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.53.09:839][524]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241b553ee00, Size=688
+[2018.06.27-16.53.09:839][524]LogUObjectGlobals: Created PersistentFrame Addr=0x000002418f5f9600, Size=688, BP_KnightCharacter_C_239 Function /Engine/Transient.REINST_BP_KnightCharacter_C_149:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.53.09:862][524]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241e86b4400, Size=752, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.53.14:249][650]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.53.14:279][650]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.53.14:464][650]LogSavePackage: Save=161.26ms
+[2018.06.27-16.53.14:464][650]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter574BC6F24C2794375AA886B409077912.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.53.14:474][650]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.53.16:453][720]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.53.16:550][724]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.53.16:554][724]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.53.17:380][769]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.53.17:426][773]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.53.17:452][773]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.53.17:452][773]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:53:17 AM)
+[2018.06.27-16.53.17:452][773]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.53.17:543][773]LogPlayLevel: PIE: StaticDuplicateObject took: (0.090596s)
+[2018.06.27-16.53.17:547][773]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.53.17:548][773]LogPlayLevel: PIE: World Init took: (0.004794s)
+[2018.06.27-16.53.17:548][773]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.095887s)
+[2018.06.27-16.53.17:570][773]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418f5f9600, Size=688
+[2018.06.27-16.53.17:595][773]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.53.17:633][773]LogInit: FAudioDevice initialized.
+[2018.06.27-16.53.17:740][773]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.53.17:820][773]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.53.17
+[2018.06.27-16.53.17:822][773]LogWorld: Bringing up level for play took: 0.078005
+[2018.06.27-16.53.17:832][773]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.529
+[2018.06.27-16.53.18:747][814]LogScript: Warning: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+	BP_KnightCharacter_C /Game/UEDPIE_0_TestMap.TestMap:PersistentLevel.BP_KnightCharacter_C_0
+	Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter:0696
+[2018.06.27-16.53.18:747][814]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7 from function: 'ExecuteUbergraph_BP_KnightCharacter' from node: Branch in graph: EventGraph in object: BP_KnightCharacter with description: Accessed None trying to read property K2Node_DynamicCast_AsABP_Knight_Character7
+[2018.06.27-16.53.31:857][543]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.53.37:400][678]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.54.19:665][106]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.54.19:780][106]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241e86b4400, Size=752
+[2018.06.27-16.54.19:780][106]LogUObjectGlobals: Created PersistentFrame Addr=0x000002421697ba00, Size=752, BP_KnightCharacter_C_258 Function /Engine/Transient.REINST_BP_KnightCharacter_C_154:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.54.19:806][106]LogUObjectGlobals: Created PersistentFrame Addr=0x000002423bf64d00, Size=752, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.54.21:683][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.54.21:713][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.54.21:908][130]LogSavePackage: Save=165.99ms
+[2018.06.27-16.54.21:908][130]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter4C39C9F043A8C1695985BD8A4DBA18FF.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.54.21:917][130]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.54.23:023][168]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.54.23:076][170]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.54.23:080][170]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.54.23:772][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.54.23:829][207]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.54.23:851][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.54.23:851][207]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:54:23 AM)
+[2018.06.27-16.54.23:851][207]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.54.23:941][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.089401s)
+[2018.06.27-16.54.23:942][207]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.54.23:943][207]LogPlayLevel: PIE: World Init took: (0.002272s)
+[2018.06.27-16.54.23:944][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.092224s)
+[2018.06.27-16.54.23:971][207]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002421697ba00, Size=752
+[2018.06.27-16.54.23:995][207]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.54.24:032][207]LogInit: FAudioDevice initialized.
+[2018.06.27-16.54.24:151][207]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.54.24:236][207]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.54.24
+[2018.06.27-16.54.24:238][207]LogWorld: Bringing up level for play took: 0.085666
+[2018.06.27-16.54.24:249][207]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.946
+[2018.06.27-16.54.36:943][901]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.54.37:883][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.55.08:285][908]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 0.037
+[2018.06.27-16.55.08:304][908]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Char/Knight/BP_KnightCharacter] ([1] browsable assets)...
+[2018.06.27-16.55.08:328][908]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter]
+[2018.06.27-16.55.08:328][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Char/Knight/BP_KnightCharacter]
+[2018.06.27-16.55.08:517][908]LogSavePackage: Save=164.26ms
+[2018.06.27-16.55.08:517][908]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter_Auto5F4A4A5384C46D6C88CA80CBEF1CB99C5.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Autosaves/Game/Char/Knight/BP_KnightCharacter_Auto5.uasset'
+[2018.06.27-16.55.08:522][908]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Autosaves/Game/Char/Knight/BP_KnightCharacter_Auto5.uasset
+[2018.06.27-16.55.08:526][908]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Char/Knight/Animations/Throw] ([1] browsable assets)...
+[2018.06.27-16.55.08:551][908]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/Char/Knight/Animations/Throw.Throw]
+[2018.06.27-16.55.08:551][908]OBJ SavePackage: Finished generating thumbnails for package [/Game/Char/Knight/Animations/Throw]
+[2018.06.27-16.55.08:599][908]LogSavePackage: Save=21.67ms
+[2018.06.27-16.55.08:599][908]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Throw_Auto5E8DD3EA441AE2FBC23676096005CBB9C.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Autosaves/Game/Char/Knight/Animations/Throw_Auto5.uasset'
+[2018.06.27-16.55.08:605][908]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Autosaves/Game/Char/Knight/Animations/Throw_Auto5.uasset
+[2018.06.27-16.55.08:605][908]LogFileHelpers: Auto-saving content packages took 0.318
+[2018.06.27-16.55.08:762][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.55.08:828][915]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-16.55.08:944][915]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002423bf64d00, Size=752
+[2018.06.27-16.55.08:944][915]LogUObjectGlobals: Created PersistentFrame Addr=0x00000242165efa00, Size=752, BP_KnightCharacter_C_277 Function /Engine/Transient.REINST_BP_KnightCharacter_C_159:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.55.08:969][915]LogUObjectGlobals: Created PersistentFrame Addr=0x000002421a8e7400, Size=664, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-16.55.10:932][934]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-16.55.10:964][934]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-16.55.11:150][934]LogSavePackage: Save=162.63ms
+[2018.06.27-16.55.11:150][934]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacterC5E74FAF48596AFACD029CB5787555A8.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-16.55.11:159][934]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-16.55.11:997][958]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.55.12:049][960]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.55.12:057][960]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-16.55.12:782][994]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-16.55.12:842][998]LogTemp: Repeating last play command: New Editor Window (PIE)
+[2018.06.27-16.55.12:881][998]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.27-16.55.12:881][998]PIE: New page: PIE session: TestMap (Jun 27, 2018, 8:55:12 AM)
+[2018.06.27-16.55.12:881][998]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2018.06.27-16.55.12:991][998]LogPlayLevel: PIE: StaticDuplicateObject took: (0.110044s)
+[2018.06.27-16.55.12:992][998]LogAIModule: Creating AISystem for world TestMap
+[2018.06.27-16.55.12:993][998]LogPlayLevel: PIE: World Init took: (0.001417s)
+[2018.06.27-16.55.12:993][998]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.112211s)
+[2018.06.27-16.55.13:033][998]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000242165efa00, Size=752
+[2018.06.27-16.55.13:058][998]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.27-16.55.13:095][998]LogInit: FAudioDevice initialized.
+[2018.06.27-16.55.13:212][998]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.27-16.55.13:301][998]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 0) at 2018.06.27-12.55.13
+[2018.06.27-16.55.13:303][998]LogWorld: Bringing up level for play took: 0.090024
+[2018.06.27-16.55.13:317][998]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 0.014
+[2018.06.27-16.55.19:236][321]LogSlate: Window 'Unreal Game Preview Standalone (64-bit/PCD3D_SM5)' being destroyed
+[2018.06.27-16.55.20:184][357]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-17.07.08:652][783]BlueprintLog: New page: Compile BP_KnightCharacter
+[2018.06.27-17.07.08:768][783]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002421a8e7400, Size=664
+[2018.06.27-17.07.08:768][783]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241f7d77d00, Size=664, BP_KnightCharacter_C_312 Function /Engine/Transient.REINST_BP_KnightCharacter_C_164:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-17.07.08:793][783]LogUObjectGlobals: Created PersistentFrame Addr=0x00000241f4a4c680, Size=616, Default__BP_KnightCharacter_C Function /Game/Char/Knight/BP_KnightCharacter.BP_KnightCharacter_C:ExecuteUbergraph_BP_KnightCharacter
+[2018.06.27-17.07.10:960][815]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.07.10:996][815]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/BP_KnightCharacter" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset" SILENT=true
+[2018.06.27-17.07.11:201][815]LogSavePackage: Save=165.19ms
+[2018.06.27-17.07.11:201][815]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/BP_KnightCharacter31D630544E787713272501B3208E8BDD.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset'
+[2018.06.27-17.07.11:211][815]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/BP_KnightCharacter.uasset
+[2018.06.27-17.07.13:232][885]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-17.07.13:316][888]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-17.07.13:322][888]LogSlate: Window 'BP_KnightCharacter' being destroyed
+[2018.06.27-17.10.26:920][586]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.28:280][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.28:671][695]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.28:680][695]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Char/Knight/Animations/Throw" FILE="C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/Animations/Throw.uasset" SILENT=true
+[2018.06.27-17.10.28:716][695]LogSavePackage: Save=5.70ms
+[2018.06.27-17.10.28:716][695]LogSavePackage: Moving 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Throw1AC6D05C4CCBDAFF5B8E7EB9D5E3A328.tmp' to 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/Animations/Throw.uasset'
+[2018.06.27-17.10.28:727][695]LogSavePackage: Display: Finished SavePackage C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Char/Knight/Animations/Throw.uasset
+[2018.06.27-17.10.29:737][739]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.35:256][998]SourceControl: fatal: E:/Jeux/fortnite/UE_4.19/Engine/Content: 'E:/Jeux/fortnite/UE_4.19/Engine/Content' is outside repository
+[2018.06.27-17.10.35:718][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.43:908][998]LogSlate: Window 'Submit Files' being destroyed
+[2018.06.27-17.10.43:936][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.44:690][998]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.06.27-17.10.45:859][998]LogSourceControl: commit successful: [master 7c316b6] Sparm
+[2018.06.27-17.10.46:575][998]SourceControl: [master 7c316b6] Sparm
+[2018.06.27-17.10.46:575][998]SourceControl:  4 files changed, 0 insertions(+), 0 deletions(-)
+[2018.06.27-17.10.46:575][998]SourceControl:  rewrite Content/Char/Knight/ABP_KnightCharacter.uasset (85%)
+[2018.06.27-17.10.46:575][998]SourceControl:  rewrite Content/Char/Knight/Animations/Throw.uasset (83%)
+[2018.06.27-17.10.46:575][998]SourceControl:  rewrite Content/Char/Knight/BP_KnightCharacter.uasset (87%)
+[2018.06.27-17.10.46:575][998]SourceControl:  rewrite Content/Char/Knight/jogsprint.uasset (88%)
+[2018.06.27-17.10.46:602][998]SourceControl: Commited [master 7c316b6] Sparm.
+[2018.06.27-17.10.49:090][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.06.27-17.10.49:340][104]LogSlate: Window 'Unreal - Unreal Editor' being destroyed
+[2018.06.27-17.10.49:724][105]Cmd: QUIT_EDITOR
+[2018.06.27-17.10.50:880][105]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.06.27-17.10.50:926][105]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.06.27-17.10.50:945][105]LogExit: Preparing to exit.
+[2018.06.27-17.10.51:997][105]LogExit: Editor shut down
+[2018.06.27-17.10.52:664][105]LogExit: Transaction tracking system shut down
+[2018.06.27-17.10.52:764][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024161c1f6a0, Size=40
+[2018.06.27-17.10.52:764][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002414a7ea5c0, Size=272
+[2018.06.27-17.10.52:847][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce1469f0, Size=4
+[2018.06.27-17.10.52:848][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce1471d0, Size=4
+[2018.06.27-17.10.52:911][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418cc6c518, Size=4
+[2018.06.27-17.10.52:946][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241794a8e00, Size=608
+[2018.06.27-17.10.53:004][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418b361bd8, Size=4
+[2018.06.27-17.10.53:004][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418b361bd0, Size=4
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ce1464e8, Size=4
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418dc37240, Size=4
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000024216599d00, Size=608
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241b199b610, Size=4
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002418fbbdd38, Size=4
+[2018.06.27-17.10.53:014][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241ad0607f8, Size=4
+[2018.06.27-17.10.53:015][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241751c0e00, Size=608
+[2018.06.27-17.10.53:018][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241f4a4c680, Size=616
+[2018.06.27-17.10.53:018][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241a8133280, Size=4
+[2018.06.27-17.10.53:019][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241f7d77d00, Size=664
+[2018.06.27-17.10.53:019][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000241e80dfd80, Size=608
+[2018.06.27-17.10.53:020][105]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002423b994b00, Size=128
+[2018.06.27-17.10.53:372][105]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.06.27-17.10.53:372][105]LogDirectoryWatcher: A directory notification for 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.06.27-17.10.53:373][105]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.06.27-17.10.55:953][105]LogExit: Object subsystem successfully closed.
+[2018.06.27-17.10.56:156][105]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.06.27-17.10.56:193][105]LogD3D11RHI: Shutdown
+[2018.06.27-17.10.56:193][105]LogD3D11RHI: CleanupD3DDevice
+[2018.06.27-17.10.56:224][105]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module AnimationEditor (590)
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (588)
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module BlueprintGraph (586)
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module PinnedCommandList (584)
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module SkeletonEditor (582)
+[2018.06.27-17.10.57:224][105]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (580)
+[2018.06.27-17.10.57:225][105]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (578)
+[2018.06.27-17.10.57:225][105]LogModuleManager: Shutting down and abandoning module StatsViewer (576)
+[2018.06.27-17.10.57:240][105]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (574)
+[2018.06.27-17.10.57:240][105]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.06.27-17.10.57:256][105]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.06.27-17.10.57:275][105]LogDirectoryWatcher: A directory notification for 'E:/Jeux/fortnite/UE_4.19/FeaturePacks/' was aborted.
+[2018.06.27-17.10.57:289][105]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.06.27-17.10.57:289][105]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.06.27-17.10.57:289][105]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.06.27-17.10.57:314][105]LogDirectoryWatcher: A directory notification for 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Collections/' was aborted.
+[2018.06.27-17.10.57:315][105]LogDirectoryWatcher: A directory notification for 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Content/Developers/hc/Collections/' was aborted.
+[2018.06.27-17.10.57:315][105]LogDirectoryWatcher: A directory notification for 'C:/Users/hc/Documents/Unreal Projects/LabrosseSux/LabrosseSux/Saved/Collections/' was aborted.
+[2018.06.27-17.10.57:315][105]LogModuleManager: Shutting down and abandoning module FoliageEdit (562)
+[2018.06.27-17.10.57:315][105]LogModuleManager: Shutting down and abandoning module LandscapeEditor (560)
+[2018.06.27-17.10.57:316][105]LogModuleManager: Shutting down and abandoning module MeshPaintMode (558)
+[2018.06.27-17.10.57:316][105]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (556)
+[2018.06.27-17.10.57:316][105]LogModuleManager: Shutting down and abandoning module ActorPickerMode (554)
+[2018.06.27-17.10.57:316][105]LogModuleManager: Shutting down and abandoning module GeometryMode (552)
+[2018.06.27-17.10.57:336][105]LogModuleManager: Shutting down and abandoning module TextureAlignMode (550)
+[2018.06.27-17.10.57:336][105]LogModuleManager: Shutting down and abandoning module BspMode (548)
+[2018.06.27-17.10.57:336][105]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (546)
+[2018.06.27-17.10.57:336][105]LogModuleManager: Shutting down and abandoning module HardwareSurvey (544)
+[2018.06.27-17.10.57:336][105]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (542)
+[2018.06.27-17.10.57:348][105]LogModuleManager: Shutting down and abandoning module AutomationWorker (540)
+[2018.06.27-17.10.57:348][105]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (538)
+[2018.06.27-17.10.57:348][105]LogModuleManager: Shutting down and abandoning module SequenceRecorder (537)
+[2018.06.27-17.10.57:362][105]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (534)
+[2018.06.27-17.10.57:362][105]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (532)
+[2018.06.27-17.10.57:428][105]LogModuleManager: Shutting down and abandoning module PlacementMode (531)
+[2018.06.27-17.10.57:428][105]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2018.06.27-17.10.57:518][105]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (526)
+[2018.06.27-17.10.57:518][105]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (524)
+[2018.06.27-17.10.57:518][105]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (522)
+[2018.06.27-17.10.57:552][105]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (520)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (518)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (516)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (514)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (512)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (510)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (508)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module CharacterAI (506)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module SmartSnapping (504)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module SessionServices (502)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module ViewportSnapping (500)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module ViewportInteraction (498)
+[2018.06.27-17.10.57:553][105]LogModuleManager: Shutting down and abandoning module ClothPainter (496)
+[2018.06.27-17.10.57:567][105]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (495)
+[2018.06.27-17.10.57:591][105]LogModuleManager: Shutting down and abandoning module LogVisualizer (492)
+[2018.06.27-17.10.57:593][105]LogModuleManager: Shutting down and abandoning module IntroTutorials (490)
+[2018.06.27-17.10.57:624][105]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (489)
+[2018.06.27-17.10.57:651][105]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (486)
+[2018.06.27-17.10.57:652][105]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (484)
+[2018.06.27-17.10.57:652][105]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (482)
+[2018.06.27-17.10.57:652][105]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (481)
+[2018.06.27-17.10.58:394][105]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (478)
+[2018.06.27-17.10.58:394][105]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (476)
+[2018.06.27-17.10.58:407][105]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (474)
+[2018.06.27-17.10.58:407][105]LogModuleManager: Shutting down and abandoning module InputBindingEditor (472)
+[2018.06.27-17.10.58:417][105]LogModuleManager: Shutting down and abandoning module MergeActors (470)
+[2018.06.27-17.10.58:428][105]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (468)
+[2018.06.27-17.10.58:438][105]LogModuleManager: Shutting down and abandoning module LocalizationService (467)
+[2018.06.27-17.10.58:451][105]LogModuleManager: Shutting down and abandoning module HardwareTargeting (464)
+[2018.06.27-17.10.58:451][105]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (462)
+[2018.06.27-17.10.58:462][105]LogModuleManager: Shutting down and abandoning module UndoHistory (460)
+[2018.06.27-17.10.58:462][105]LogModuleManager: Shutting down and abandoning module XmlParser (458)
+[2018.06.27-17.10.58:476][105]LogModuleManager: Shutting down and abandoning module Blutility (456)
+[2018.06.27-17.10.58:476][105]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (454)
+[2018.06.27-17.10.58:476][105]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (453)
+[2018.06.27-17.10.58:477][105]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (450)
+[2018.06.27-17.10.58:477][105]LogModuleManager: Shutting down and abandoning module SettingsEditor (448)
+[2018.06.27-17.10.58:479][105]LogModuleManager: Shutting down and abandoning module ProjectLauncher (446)
+[2018.06.27-17.10.58:490][105]LogModuleManager: Shutting down and abandoning module SessionFrontend (444)
+[2018.06.27-17.10.58:504][105]LogModuleManager: Shutting down and abandoning module ProfilerClient (442)
+[2018.06.27-17.10.58:517][105]LogModuleManager: Shutting down and abandoning module DeviceManager (440)
+[2018.06.27-17.10.58:536][105]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (439)
+[2018.06.27-17.10.58:612][105]LogModuleManager: Shutting down and abandoning module AutomationController (436)
